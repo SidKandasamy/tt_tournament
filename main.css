@@ -26,7 +26,7 @@
   .semi-one {
     display: flex;
     flex-flow: column;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
   }
 
@@ -34,6 +34,20 @@
     display: flex;
     flex-flow: column;
     
+  }
+
+  .first{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .second{
+      padding: 10px;
+      margin: 10px;
+  }
+  .final{
+    padding: 10px;
+    margin: 35px;
   }
 
   .group {
@@ -47,3 +61,10 @@
       margin-top: 5px;
     }
   
+
+    .header{
+        display:flex;
+        align-items: center;
+    }
+
+    
