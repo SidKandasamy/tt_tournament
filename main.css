@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quarter {
+    display: flex;
+    flex-flow: column;
+    
+  }
+  
+  .semi{
+    display:flex;
+    flex-flow:column;
+    margin-left: 25px;
+    
+  }
+  
+  .first-round {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    
+  }
+
+  .semi-one {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 50px;
+
+  }
+
+  .semi-two {
+    display: flex;
+    flex-flow: column;
+    
+  }
+
+  .group {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    
+  }
+    
+    input + input {
+      margin-top: 5px;
+    }
+  
