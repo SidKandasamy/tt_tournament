@@ -12,3 +12,18 @@ Optional advanced features might include:
 
 ability to record scores for each player, or mark which player won from each pairing, to create the next round of the tournament playoffs
 continued rounds created until the final (last 2 players who have won all matches to date play each other, one marked as the winner)
+
+# Initial notes
+
+The MVP of this task is to be able to create a tool which is able to randomly assign player pairings for a Table Tennis Tournament. 
+
+- My first action is to wirefram a design I feel comfortable with
+- Next is to decide which tools, languages and approach I would use
+- Ideally I would like a total of 4 pairings which can be calculated via an add player button
+
+Bonus Features
+
+- Player scores and wins them to move up the single elimination
+- Numbers of player wins are stored in a results table
+
+
