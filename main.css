@@ -16,19 +16,11 @@
     
   }
   
-  .first-set {
+  .first-round {
     display: flex;
     flex-flow: column;
     margin: 5px;
-    
-    
-  }
-
-  .second-set {
-    display: flex;
-    flex-flow: column;
-    margin: 5px;
-    margin-bottom: 25px;
+    margin: inherit;
     
   }
 
@@ -101,3 +93,5 @@
          font-weight: 100;
          color: white;
     }
+
+    
