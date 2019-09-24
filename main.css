@@ -16,10 +16,19 @@
     
   }
   
-  .first-round {
+  .first-set {
     display: flex;
     flex-flow: column;
     margin: 5px;
+    
+    
+  }
+
+  .second-set {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    margin-bottom: 25px;
     
   }
 
@@ -67,4 +76,28 @@
         align-items: center;
     }
 
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% {  transform: rotate(359deg); }
+    }
+    #pong {
+        animation: spin 2s linear infinite;
     
+    }
+
+    body{
+        background-color: #0037a0;
+
+    }
+
+    @font-face{
+        font-family:'NunitoBoldItalic';
+        font-weight: 100;
+        src: url(../Technical_Test/Fonts/Nunito-BoldItalic.ttf) format("truetype");
+    }
+
+    h1{
+        font-family: 'NunitoBoldItalic' Arial, Helvetica, sans-serif;
+         font-weight: 100;
+         color: white;
+    }
