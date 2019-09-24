@@ -79,6 +79,7 @@
 
     body{
         background-color: #0037a0;
+        margin: 0px;
 
     }
 
@@ -94,4 +95,76 @@
          color: white;
     }
 
+    .title{
+        display: flex;
+        flex-direction: column;
     
+
+    }
+
+    table {
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+      }
+
+      .lead{
+        margin: 20px auto;
+        line-height: 25px;
+        color: #fff;
+      }
+
+      .instructions{
+        margin: 20px auto;
+        line-height: 25px;
+        color: #de5e5e; 
+        
+      }
+
+      .wrapper{
+        margin: 20px auto;
+        line-height: 25px;
+      }
+      input{
+        margin-left: 73px;
+        border-radius: 8px;
+        width: 200px;
+        height: 23px;
+        padding: 5px;
+      }
+
+      .input{
+        margin-left: 100px;
+        background-color: #53f348e3;
+        border: yellowgreen;
+    }
+    
+    button{
+        border-radius: 8px;
+        height: 30px;
+        padding: 7px;
+        background-color: #de5e5e;
+    }
+    header{
+        display:flex;
+    }
+
+    .footer{
+        display:flex;
+    }
+
+   .wrapper{
+       background-image: url(../table_tennis_pics/table-tennis-2435003_640.jpg);
+   }
+
+ 
+
+.first-round-input {
+    background-color: green;
+}
+.first-round-input.available {
+    background-color: white;
+}
