@@ -27,3 +27,6 @@ Bonus Features
 - Numbers of player wins are stored in a results table
 
 
+# Wireframe
+
+![70666564_2485552505012322_913909490867240960_n](https://user-images.githubusercontent.com/51920030/65522474-b3add580-dee2-11e9-9403-19700c3febb5.jpg)
