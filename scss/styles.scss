@@ -1,0 +1,177 @@
+$darkGrey: #536171;
+$peach:  #de5e5e;
+$brightGreen: #53f348e3;
+
+.wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quarter {
+    display: flex;
+    flex-flow: column;
+    
+  }
+  
+  .semi{
+    display:flex;
+    flex-flow:column;
+    margin-left: 25px;
+    
+  }
+  
+  .first-round {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    margin: inherit;
+    
+  }
+
+  .semi-one {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 100px;
+
+  }
+
+  .semi-two {
+    display: flex;
+    flex-flow: column;
+    
+  }
+
+  .first{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .second{
+      padding: 10px;
+      margin: 10px;
+  }
+  .final{
+    padding: 10px;
+    margin: 35px;
+  }
+
+  .group {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    
+  }
+    
+    input + input {
+      margin-top: 5px;
+    }
+  
+
+    .header{
+        display:flex;
+        align-items: center;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% {  transform: rotate(359deg); }
+    }
+    #pong {
+        animation: spin 2s linear infinite;
+    
+    }
+
+    body{
+        background-color:$darkGrey;
+        margin: 0px;
+
+    }
+
+    @font-face{
+        font-family:'NunitoBoldItalic';
+        font-weight: 100;
+        src: url(../Technical_Test/Fonts/Nunito-BoldItalic.ttf) format("truetype");
+    }
+
+    h1{
+        font-family: 'NunitoBoldItalic' Arial, Helvetica, sans-serif;
+         font-weight: 100;
+         color: white;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+
+    table {
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+      }
+
+      .lead{
+        margin: 20px auto;
+        line-height: 25px;
+        color: #fff;
+      }
+
+      .instructions{
+        margin: 20px auto;
+        line-height: 25px;
+        color:$peach; 
+        
+      }
+
+      .wrapper{
+        margin: 20px auto;
+        line-height: 25px;
+      }
+      input{
+        margin-left: 73px;
+        border-radius: 8px;
+        width: 200px;
+        height: 23px;
+        padding: 5px;
+      }
+
+      .input{
+        margin-left: 100px;
+        background-color:$brightGreen;
+        border: yellowgreen;
+    }
+    
+    button{
+        border-radius: 8px;
+        height: 30px;
+        padding: 7px;
+        background-color:$peach;
+    }
+    header{
+        display:flex;
+    }
+
+    .footer{
+        display:flex;
+    }
+
+   .wrapper{
+       background-image: url(../../table_tennis_pics/tennis-1141702_1280.jpg);
+       background-size: cover;
+
+   }
+
+ 
+
+.first-round-input {
+    background-color:$brightGreen;
+}
+.first-round-input.available {
+    background-color: white;
+}
+
