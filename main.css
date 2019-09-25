@@ -78,7 +78,7 @@
     }
 
     body{
-        background-color: #0037a0;
+        background-color: #536171;
         margin: 0px;
 
     }
@@ -157,7 +157,9 @@
     }
 
    .wrapper{
-       background-image: url(../table_tennis_pics/table-tennis-2435003_640.jpg);
+       background-image: url(../table_tennis_pics/tennis-1141702_1280.jpg);
+       background-size: cover;
+
    }
 
  
@@ -168,3 +170,4 @@
 .first-round-input.available {
     background-color: white;
 }
+

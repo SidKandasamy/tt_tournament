@@ -1,38 +1,9 @@
 
-//let tournament = document.getElementById("tournament")
-// //create a new paragraph
-//let p= document.createElement("p");
-//text content
-//p.textContent = "click";
-//append to main
-//main.append(p);
-
-/* let players = ["","","","","","","",""];
-
-let input = document.querySelectorAll("input")
-
-
-for (let i = 1; i <= input.length; i++) {
-
-    console.log(i);
-}
-
-
-
-
-(() => {
-    let button =document.getElementById("button");
-    button.addEventListener("click", ()=>{
-       
-    })
-
-})(); */
-
 // Function from MDN to get a random number https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
-
+// create variables targeting the input and button for the add player function
 const nameInput = document.querySelector('#name-input');
 const addPlayer = document.querySelector('#add-player');
 
@@ -42,7 +13,7 @@ addPlayer.addEventListener('click', () => {
     const firstRoundInputs = document.querySelectorAll('.first-round-input.available');
     // Store the value of the input in variable
     const inputVal = nameInput.value;
-    // Get a random number based on the amount on inputs in the first round (minus 1 because arrays start at 0)
+    // Get a random number based on the amount on inputs in the first round - this comes in an array (minus 1 because arrays start at 0)
     const randNum = getRandomInt(firstRoundInputs.length - 1);
 
     const randInput = firstRoundInputs[randNum];
