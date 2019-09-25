@@ -3,9 +3,11 @@
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
+
 // create variables targeting the input and button for the add player function
 const nameInput = document.querySelector('#name-input');
 const addPlayer = document.querySelector('#add-player');
+
 
 // Add event listener to the button
 addPlayer.addEventListener('click', () => {
@@ -20,7 +22,18 @@ addPlayer.addEventListener('click', () => {
     // Get the element based on the random number selected and set the value to be equal to the value on the name input
     randInput.value = inputVal;
     // Remove avaiable class so we can't populate the same input
-    randInput.classList.remove('available');
+    const available = randInput.classList.remove('available');
+
+    
+    
 });
 
 //do alert in js if all boxes filled or disable the input
+
+// const endDraw = document.querySelector("Button").disabled = true;
+
+//    if (randNum >= 8){
+//        return  endDraw
+//    } 
+
+//      if ()
