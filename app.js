@@ -22,18 +22,49 @@ addPlayer.addEventListener('click', () => {
     // Get the element based on the random number selected and set the value to be equal to the value on the name input
     randInput.value = inputVal;
     // Remove avaiable class so we can't populate the same input
-    const available = randInput.classList.remove('available');
+    randInput.classList.remove('available');
 
     
     
 });
 
-//do alert in js if all boxes filled or disable the input
 
-// const endDraw = document.querySelector("Button").disabled = true;
 
-//    if (randNum >= 8){
-//        return  endDraw
-//    } 
+function myFunction() {
 
-//      if ()
+    document.getElementById("name-input").disabled = true;
+
+    //onclick="myFunction()" bad practise HTML code to disable the button
+  }
+
+
+
+let players = [
+     {name: "", "score" : 12},
+     {name: "", "score" : 21},
+     {name: "", "score" : 21},
+     { name: "", "score" : 9},
+     { name: "", "score" : 21},
+     { name: "", "score" : 20},
+     { name: "", "score" : 17},
+     { name: "", "score" : 21},
+
+
+] 
+
+const scoreAssign = document.getElementById("start-game");
+
+scoreAssign.addEventListener("click", () => {
+        
+});  
+
+//.addEventListener("click", setPlayerName)
+function setPlayerName (name) {
+    //this creates an array inside the players name 
+    let playerNames = document.getElementsByClassName("first-round-inputs").value
+    //setting player name for position 0 in the array
+    players.forEach(player, index => {
+        player.name = playerNames[index]
+    });
+
+}

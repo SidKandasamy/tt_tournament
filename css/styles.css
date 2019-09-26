@@ -63,11 +63,6 @@ body {
   background-color: #536171;
   margin: 0px; }
 
-@font-face {
-  font-family: 'NunitoBoldItalic';
-  font-weight: 100;
-  src: url(../Technical_Test/Fonts/Nunito-BoldItalic.ttf) format("truetype"); }
-
 h1 {
   font-family: 'NunitoBoldItalic' Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -121,7 +116,8 @@ header {
   display: flex; }
 
 .footer {
-  display: flex; }
+  display: flex;
+  justify-content: space-evenly; }
 
 .wrapper {
   background-image: url(../../table_tennis_pics/tennis-1141702_1280.jpg);

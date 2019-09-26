@@ -87,12 +87,7 @@ $brightGreen: #53f348e3;
 
     }
 
-    @font-face{
-        font-family:'NunitoBoldItalic';
-        font-weight: 100;
-        src: url(../Technical_Test/Fonts/Nunito-BoldItalic.ttf) format("truetype");
-    }
-
+   
     h1{
         font-family: 'NunitoBoldItalic' Arial, Helvetica, sans-serif;
          font-weight: 100;
@@ -158,6 +153,8 @@ $brightGreen: #53f348e3;
 
     .footer{
         display:flex;
+        justify-content: space-evenly;
+
     }
 
    .wrapper{
