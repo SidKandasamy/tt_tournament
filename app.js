@@ -54,12 +54,13 @@ let players = [
 
 const scoreAssign = document.getElementById("start-game");
 
-scoreAssign.addEventListener("click", () => {
-        
-});  
+scoreAssign.addEventListener("click", setPlayerName)
+
+
+
 
 //.addEventListener("click", setPlayerName)
-function setPlayerName (name) {
+let setPlayerName = function setPlayerName (player) {
     //this creates an array inside the players name 
     let playerNames = document.getElementsByClassName("first-round-inputs").value
     //setting player name for position 0 in the array
