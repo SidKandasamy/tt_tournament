@@ -23,7 +23,7 @@ The MVP of this task is to be able to create a tool which is able to randomly as
 
 Bonus Features
 
-- Player scores and wins them to move up the single elimination
+- Players able to move up the elimination tree either using scores or buttons
 - Numbers of player wins are stored in a results table
 
 
