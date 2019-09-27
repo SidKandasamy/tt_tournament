@@ -72,6 +72,8 @@ for (let i = 0; i < secondRounds.length; i++) {
 
 
 
+
+
 /* player1.addEventListener('click', () => {
 
     
