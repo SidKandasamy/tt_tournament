@@ -113,6 +113,20 @@ player5.addEventListener('click', () => {
 
 })
 
+player6.addEventListener('click', () => {
+
+    const player6Value = player6.value
+    
+    const randNum6=getRandomInt(semiFinalTwo.length -1);
+
+    const randInput6 = semiFinalTwo[randNum6];
+
+    randInput6.value = player6Value;
+
+
+
+})
+
 
 
 function myFunction() {
