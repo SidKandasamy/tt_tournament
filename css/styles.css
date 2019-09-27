@@ -116,9 +116,11 @@ header {
   background-size: cover; }
 
 .first-round-input,
-.second-round-input {
+.second-round-input,
+.final-round-input {
   background-color: #53f348e3; }
 
 .first-round-input.available,
-.second-round-input.available {
+.second-round-input.available,
+.final-round-input.available {
   background-color: white; }
