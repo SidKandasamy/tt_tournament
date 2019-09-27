@@ -12,6 +12,8 @@ const player4 = document.querySelector('#player4');
  const semiFinalOne = document.querySelectorAll('.semi-final-one');
  const semiFinalOne2 = document.querySelectorAll('.semi-final-one-1');
  const semiFinalTwo = document.querySelectorAll('.semi-final-two');
+ const semiFinalTwo2 = document.querySelectorAll('.semi-final-two-1');
+
 
 
 // Function from MDN to get a random number https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -91,6 +93,21 @@ player4.addEventListener('click', () => {
     const randInput4 = semiFinalOne2[randNum4];
 
     randInput4.value = player4Value;
+
+
+
+})
+
+
+player5.addEventListener('click', () => {
+
+    const player5Value = player5.value
+    
+    const randNum5=getRandomInt(semiFinalTwo.length -1);
+
+    const randInput5 = semiFinalTwo[randNum5];
+
+    randInput5.value = player5Value;
 
 
 
