@@ -1,14 +1,19 @@
 
-// Function from MDN to get a random number https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-}
+
 
 // create variables targeting the input and button for the add player function
 const nameInput = document.querySelector('#name-input');
 const addPlayer = document.querySelector('#add-player');
+const player1 = document.querySelector('#player1');
+const player2 = document.querySelector('#player2');
+const player3 = document.querySelector('#player3');
+const player4 = document.querySelector('#player4');
 
 
+// Function from MDN to get a random number https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
 // Add event listener to the button
 addPlayer.addEventListener('click', () => {
     // Get all the first round inputs and store them in a variable
@@ -28,6 +33,35 @@ addPlayer.addEventListener('click', () => {
 
 
 
+
+player1.addEventListener('click', () => {
+
+    //get al the inputs for semi final one and store in a variable
+    const semiFinalOne = document.querySelectorAll('.semi-final-one');
+    
+    const player1Value = player1.value
+    
+    const randNum1=getRandomInt(semiFinalOne.length -1);
+
+    const randInput1 = semiFinalOne[randNum1];
+
+    randInput1.value = player1Value;
+
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
 function myFunction() {
 
     document.getElementById("name-input").disabled = true;
@@ -37,52 +71,3 @@ function myFunction() {
 
 
 
-//  let players = [
-//      {name: "", "score" : 12},
-//      {name: "", "score" : 21},
-//      {name: "", "score" : 21},
-//      {name: "", "score" : 9},
-//      {name: "", "score" : 21},
-//      {name: "", "score" : 20},
-//      {name: "", "score" : 17},
-//      {name: "", "score" : 21},
-
-// ] 
-
-
-const setPlayerScore = () => {
-
-    
-    let playerNames = document.getElementsByClassName("first-round-inputs").value
-
-    //setting player name for position 0 in the array
-    //  players.forEach(name, index => {
-    //     players.name = playerNames[index]
-    // }); 
-}
-
-const scoreAssign = document.getElementById("start-game");
-
-scoreAssign.addEventListener("click", setPlayerScore);
-
-
-
-
-// use for each to go through array an assign score to each player value
-// then to manipulate the data and winner use filter to see which player has scored a value which equals to 21
-
-
-// const playersFromData = () => {
-//     let players = [
-//     ];
-
-//     const inputs = document.querySelectorAll('.first-round-input.available');
-    
-//     for (let i = 0; i < players.length; i++) {
-//         const player = players[i];
-        
-//         inputs[i].value = player.name;
-//     }
-// }
-
-// playersFromData();
