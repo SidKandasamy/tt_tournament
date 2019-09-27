@@ -10,6 +10,7 @@ const player3 = document.querySelector('#player3');
 const player4 = document.querySelector('#player4');
  //get all the inputs for semi final one and store in a variable
  const semiFinalOne = document.querySelectorAll('.semi-final-one');
+ const semiFinalOne2 = document.querySelectorAll('.semi-final-one-1');
  const semiFinalTwo = document.querySelectorAll('.semi-final-two');
 
 
@@ -67,8 +68,33 @@ player2.addEventListener('click', () => {
 
 })
 
+player3.addEventListener('click', () => {
+
+    const player3Value = player3.value
+    
+    const randNum3=getRandomInt(semiFinalOne2.length -1);
+
+    const randInput3 = semiFinalOne2[randNum3];
+
+    randInput3.value = player3Value;
 
 
+
+})
+
+player4.addEventListener('click', () => {
+
+    const player4Value = player4.value
+    
+    const randNum4=getRandomInt(semiFinalOne2.length -1);
+
+    const randInput4 = semiFinalOne2[randNum4];
+
+    randInput4.value = player4Value;
+
+
+
+})
 
 
 
