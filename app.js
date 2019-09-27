@@ -69,7 +69,22 @@ for (let i = 0; i < secondRounds.length; i++) {
     
 }
 
+const winnerTwo = document.querySelector("#winner2");
 
+const winnerOne = document.querySelector("#winner1");
+
+
+
+const winner = (ele) => {
+    ele.addEventListener('click', () => {
+
+        window.alert("Well done, you have won!");
+
+    });
+}
+
+winner(winnerTwo);
+winner(winnerTwo);
 
 
 
