@@ -87,12 +87,7 @@ $brightGreen: #53f348e3;
 
     }
 
-    @font-face{
-        font-family:'NunitoBoldItalic';
-        font-weight: 100;
-        src: url(../Technical_Test/Fonts/Nunito-BoldItalic.ttf) format("truetype");
-    }
-
+   
     h1{
         font-family: 'NunitoBoldItalic' Arial, Helvetica, sans-serif;
          font-weight: 100;
@@ -106,14 +101,6 @@ $brightGreen: #53f348e3;
 
     }
 
-    table {
-        border-collapse: collapse;
-      }
-      th, td {
-        border: 1px solid white;
-        padding: 10px;
-        text-align: left;
-      }
 
       .lead{
         margin: 20px auto;
@@ -136,7 +123,7 @@ $brightGreen: #53f348e3;
         margin-left: 73px;
         border-radius: 8px;
         width: 200px;
-        height: 23px;
+        height: 37px;
         padding: 5px;
       }
 
@@ -158,6 +145,8 @@ $brightGreen: #53f348e3;
 
     .footer{
         display:flex;
+        justify-content: space-evenly;
+
     }
 
    .wrapper{
@@ -168,10 +157,16 @@ $brightGreen: #53f348e3;
 
  
 
-.first-round-input {
+.first-round-input,
+.second-round-input,
+.final-round-input {
     background-color:$brightGreen;
+    
 }
-.first-round-input.available {
+.first-round-input.available,
+.second-round-input.available,
+.final-round-input.available {
     background-color: white;
+    
 }
 

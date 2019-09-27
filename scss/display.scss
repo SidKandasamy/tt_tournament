@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quarter {
+    display: flex;
+    flex-flow: column;
+    
+  }
+  
+  .semi{
+    display:flex;
+    flex-flow:column;
+    margin-left: 25px;
+    
+  }
+  
+  .first-round {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    margin: inherit;
+    
+  }
+
+  .semi-one {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 100px;
+
+  }
+
+  .semi-two {
+    display: flex;
+    flex-flow: column;
+    
+  }
+
+  .first{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .second{
+      padding: 10px;
+      margin: 10px;
+  }
+  .final{
+    padding: 10px;
+    margin: 35px;
+  }
+
+  .group {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    
+  }
+    
+    input + input {
+      margin-top: 5px;
+    }
+  

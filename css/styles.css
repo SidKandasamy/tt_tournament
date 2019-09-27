@@ -63,11 +63,6 @@ body {
   background-color: #536171;
   margin: 0px; }
 
-@font-face {
-  font-family: 'NunitoBoldItalic';
-  font-weight: 100;
-  src: url(../Technical_Test/Fonts/Nunito-BoldItalic.ttf) format("truetype"); }
-
 h1 {
   font-family: 'NunitoBoldItalic' Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -76,14 +71,6 @@ h1 {
 .title {
   display: flex;
   flex-direction: column; }
-
-table {
-  border-collapse: collapse; }
-
-th, td {
-  border: 1px solid white;
-  padding: 10px;
-  text-align: left; }
 
 .lead {
   margin: 20px auto;
@@ -103,7 +90,7 @@ input {
   margin-left: 73px;
   border-radius: 8px;
   width: 200px;
-  height: 23px;
+  height: 37px;
   padding: 5px; }
 
 .input {
@@ -121,14 +108,19 @@ header {
   display: flex; }
 
 .footer {
-  display: flex; }
+  display: flex;
+  justify-content: space-evenly; }
 
 .wrapper {
   background-image: url(../../table_tennis_pics/tennis-1141702_1280.jpg);
   background-size: cover; }
 
-.first-round-input {
+.first-round-input,
+.second-round-input,
+.final-round-input {
   background-color: #53f348e3; }
 
-.first-round-input.available {
+.first-round-input.available,
+.second-round-input.available,
+.final-round-input.available {
   background-color: white; }
