@@ -37,10 +37,48 @@ addPlayer.addEventListener('click', () => {
     randInput.classList.remove('available');
 });
 
+// Get all first round inputs
+const firstRounds = document.querySelectorAll('[data-first-round]');
+const secondRounds = document.querySelectorAll('[data-second-round]');
+
+
+const nextRound = (el, round) => {
+    // Add eventlistener to the element to listen for a 'click'
+    el.addEventListener('click', () => {
+        // Get the value of the input that has being clicked
+        const player = el.value;
+    
+        // Set the value of the semi-final input equal to that of the value stored above
+        round.value = player;        
+    });
+}
+
+// Loop through all the first round input
+for (let i = 0; i < firstRounds.length; i++) {
+    const el = firstRounds[i];
+    // Get the value of the data attribue (data-first-round="???")
+    const group = el.dataset.firstRound;
+    // Find the semi-final input, based on the value of the first round input
+    const semiFinal = document.querySelector('[data-first-round-result="' + group + '"]');
+
+    nextRound(el, semiFinal);
+}
+
+for (let i = 0; i < secondRounds.length; i++) {
+    const ele = secondRounds[i];
+
+    const group2 = ele.dataset.secondRound;
+
+    const final = document.querySelector('[data-second-round-result="' + group2 + '"]');
+
+    nextRound(ele,final);
+    
+}
 
 
 
-player1.addEventListener('click', () => {
+
+/* player1.addEventListener('click', () => {
 
     
     const player1Value = player1.value
@@ -60,11 +98,11 @@ player2.addEventListener('click', () => {
 
     const player2Value = player2.value
     
-    const randNum2=getRandomInt(semiFinalOne.length -1);
+    const randNum1=getRandomInt(semiFinalOne.length -1);
 
-    const randInput2 = semiFinalOne[randNum2];
+    const randInput1 = semiFinalOne[randNum1];
 
-    randInput2.value = player2Value;
+    randInput1.value = player2Value;
 
 
 
@@ -127,8 +165,32 @@ player6.addEventListener('click', () => {
 
 })
 
+player7.addEventListener('click', () => {
+
+    const player7Value = player7.value
+    
+    const randNum7=getRandomInt(semiFinalTwo2.length -1);
+
+    const randInput7 = semiFinalTwo2[randNum7];
+
+    randInput7.value = player7Value;
+
+})
+
+player8.addEventListener('click', () => {
+
+    const player8Value = player8.value
+    
+    const randNum8=getRandomInt(semiFinalTwo2.length -1);
+
+    const randInput8 = semiFinalTwo2[randNum8];
+
+    randInput8.value = player8Value;
 
 
+
+})
+ */
 function myFunction() {
 
     document.getElementById("name-input").disabled = true;
