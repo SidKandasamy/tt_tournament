@@ -4,15 +4,8 @@
 // create variables targeting the input and button for the add player function
 const nameInput = document.querySelector('#name-input');
 const addPlayer = document.querySelector('#add-player');
-const player1 = document.querySelector('#player1');
-const player2 = document.querySelector('#player2');
-const player3 = document.querySelector('#player3');
-const player4 = document.querySelector('#player4');
- //get all the inputs for semi final one and store in a variable
- const semiFinalOne = document.querySelectorAll('.semi-final-one');
- const semiFinalOne2 = document.querySelectorAll('.semi-final-one-1');
- const semiFinalTwo = document.querySelectorAll('.semi-final-two');
- const semiFinalTwo2 = document.querySelectorAll('.semi-final-two-1');
+
+ 
 
 
 
@@ -59,21 +52,22 @@ for (let i = 0; i < firstRounds.length; i++) {
     // Get the value of the data attribue (data-first-round="???")
     const group = el.dataset.firstRound;
     // Find the semi-final input, based on the value of the first round input
-    const semiFinal = document.querySelector('[data-first-round-result="' + group + '"]');
+    const result = document.querySelector('[data-first-round-result="' + group + '"]');
 
-    nextRound(el, semiFinal);
+    nextRound(el, result);
 }
 
 for (let i = 0; i < secondRounds.length; i++) {
-    const ele = secondRounds[i];
+    const el = secondRounds[i];
 
-    const group2 = ele.dataset.secondRound;
+    const group = el.dataset.secondRound;
 
-    const final = document.querySelector('[data-second-round-result="' + group2 + '"]');
+    const result = document.querySelector('[data-second-round-result="' + group + '"]');
 
-    nextRound(ele,final);
+    nextRound(el, result);
     
 }
+
 
 
 
