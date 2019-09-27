@@ -42,7 +42,8 @@ const nextRound = (el, round) => {
         const player = el.value;
     
         // Set the value of the semi-final input equal to that of the value stored above
-        round.value = player;        
+        round.value = player;
+        round.classList.remove('available');        
     });
 }
 

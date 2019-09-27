@@ -72,14 +72,6 @@ h1 {
   display: flex;
   flex-direction: column; }
 
-table {
-  border-collapse: collapse; }
-
-th, td {
-  border: 1px solid white;
-  padding: 10px;
-  text-align: left; }
-
 .lead {
   margin: 20px auto;
   line-height: 25px;
@@ -123,8 +115,10 @@ header {
   background-image: url(../../table_tennis_pics/tennis-1141702_1280.jpg);
   background-size: cover; }
 
-.first-round-input {
+.first-round-input,
+.second-round-input {
   background-color: #53f348e3; }
 
-.first-round-input.available {
+.first-round-input.available,
+.second-round-input.available {
   background-color: white; }
