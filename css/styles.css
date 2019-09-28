@@ -112,7 +112,7 @@ header {
   justify-content: space-evenly; }
 
 .wrapper {
-  background-image: url(../../table_tennis_pics/tennis-1141702_1280.jpg);
+  background-image: url(./../images/tennis-1141702_1280.jpg);
   background-size: cover; }
 
 .first-round-input,
