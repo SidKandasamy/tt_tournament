@@ -33,6 +33,7 @@ Bonus Features
 
 
 
+
 # Technologies and Skills used
 
 - HTML
@@ -54,6 +55,5 @@ Bonus Features
 - To progress to the semi final finals, click on the winner from the each quarter final game.
 - To progress to the final, click on the winner from the each in the semi final game.
 - Finally to win, click on the winner from the final game. 
-
 
 
