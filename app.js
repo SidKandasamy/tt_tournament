@@ -5,8 +5,12 @@
 const nameInput = document.querySelector('#name-input');
 const addPlayer = document.querySelector('#add-player');
 
- 
 
+nameInput.addEventListener('click', () => {
+//removes disabled attribute 
+addPlayer.removeAttribute('disabled');
+
+});
 
 
 // Function from MDN to get a random number https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -15,9 +19,10 @@ function getRandomInt(max) {
 }
 // Add event listener to the button
 addPlayer.addEventListener('click', () => {
+
     // Get all the first round inputs and store them in a variable
     const firstRoundInputs = document.querySelectorAll('.first-round-input.available');
-
+    
     // Store the value of the input in variable
     const inputVal = nameInput.value;
     // Get a random number based on the amount on inputs in the first round - this comes in an array (minus 1 because arrays start at 0)
@@ -28,7 +33,12 @@ addPlayer.addEventListener('click', () => {
     randInput.value = inputVal;
     // Remove avaiable class so we can't populate the same input
     randInput.classList.remove('available');
+    randInput.removeAttribute('disabled');
+
 });
+
+
+
 
 // Get all first round inputs
 const firstRounds = document.querySelectorAll('[data-first-round]');
@@ -43,7 +53,8 @@ const nextRound = (el, round) => {
     
         // Set the value of the semi-final input equal to that of the value stored above
         round.value = player;
-        round.classList.remove('available');        
+        round.classList.remove('available');
+        round.removeAttribute('disabled');       
     });
 }
 
@@ -84,20 +95,7 @@ const winner = (ele) => {
 }
 
 winner(winnerTwo);
-winner(winnerTwo);
-
-
-
-
-
-
-
-function myFunction() {
-
-    document.getElementById("name-input").disabled = true;
-
-    //onclick="myFunction()" bad practise HTML code to disable the button
-  }
+winner(winnerOne);
 
 
 
