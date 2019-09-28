@@ -30,3 +30,30 @@ Bonus Features
 # Wireframe
 
 ![70666564_2485552505012322_913909490867240960_n](https://user-images.githubusercontent.com/51920030/65522474-b3add580-dee2-11e9-9403-19700c3febb5.jpg)
+
+
+
+# Technologies and Skills used
+
+- HTML
+- CSS
+- Javascript
+- GULP
+= SASS
+- Wireframing
+- GIT
+- CSS Animation
+
+# To run project
+
+
+
+# How to play
+
+- Enter 8 players in the input next to the "add player" button
+- To progress to the semi final finals, click on the winner from the each quarter final game.
+- To progress to the final, click on the winner from the each in the semi final game.
+- Finally to win, click on the winner from the final game. 
+
+
+
