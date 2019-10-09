@@ -78,14 +78,17 @@ h1 {
   color: #fff; }
 
 .instructions {
-  margin: 20px auto;
-  line-height: 25px;
+  margin: 5px auto;
+  line-height: 15px;
   color: #de5e5e; }
 
 .wrapper {
   margin: 20px auto;
   line-height: 25px; }
 
+.player-creation{
+  margin-top: 34px;
+}
 input {
   margin-left: 73px;
   border-radius: 8px;
