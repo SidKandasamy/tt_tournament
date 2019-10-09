@@ -40,20 +40,22 @@ Bonus Features
 - CSS
 - Javascript
 - GULP
-= SASS
+- SASS
 - Wireframing
 - GIT
 - CSS Animation
 
 # To run project
 
+live website here: http://sid.developme.space/
 
 
 # How to play
 
-- Enter 8 players in the input next to the "add player" button
-- To progress to the semi final finals, click on the winner from the each quarter final game.
-- To progress to the final, click on the winner from the each in the semi final game.
+- Enter 8 players in the input next to the "add player" button.
+- To generate players moving to the next round of the tournament, you must click on the winner from each game. This automatically populates the fields for the next round of the tournament.
+- To progress to the semi final finals, click on the winner from each quarter final game.
+- To progress to the final, click on the winner from the the semi final game.
 - Finally to win, click on the winner from the final game. 
 
 
