@@ -2,6 +2,8 @@ $darkGrey: #536171;
 $peach:  #de5e5e;
 $brightGreen: #53f348e3;
 
+
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -109,10 +111,14 @@ $brightGreen: #53f348e3;
       }
 
       .instructions{
-        margin: 20px auto;
-        line-height: 25px;
-        color:$peach; 
+        margin: 5px auto;
+        line-height: 15px;
+        color: #de5e5e; 
         
+      }
+
+      .player-creation{
+        margin-top: 34px;
       }
 
       .wrapper{
@@ -167,6 +173,16 @@ $brightGreen: #53f348e3;
 .second-round-input.available,
 .final-round-input.available {
     background-color: white;
+    
+}
+
+//media- queries
+
+@media screen and (max-width:600px){
+
+    .footer{
+        display:none;
+    }
     
 }
 
