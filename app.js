@@ -7,13 +7,14 @@ const addPlayer = document.querySelector('#add-player');
 
 
 nameInput.addEventListener('click', () => {
-//removes disabled attribute 
+//removes disabled attribute for initial input
 addPlayer.removeAttribute('disabled');
 
 });
 
 
 // Function from MDN to get a random number https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
@@ -54,6 +55,7 @@ const nextRound = (el, round) => {
         // Set the value of the semi-final input equal to that of the value stored above
         round.value = player;
         round.classList.remove('available');
+        //disabled attribute is removed to keep rounds clickable after a player has made it to the next round
         round.removeAttribute('disabled');       
     });
 }
