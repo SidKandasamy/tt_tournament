@@ -44,11 +44,13 @@ Bonus Features
 - Wireframing
 - GIT
 - CSS Animation
+- Media Queries
 
 # To run project
 
 live website here: http://sid.developme.space/
 
+# Mobile friendly for Iphone 5 and SE
 
 # How to play
 
