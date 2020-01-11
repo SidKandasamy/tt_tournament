@@ -50,7 +50,7 @@ Bonus Features
 
 live website here: http://sid.developme.space/
 
-# Mobile friendly for Iphone 5 and SE
+# Mobile friendly for Iphone 5/SE
 
 # How to play
 
