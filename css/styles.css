@@ -173,7 +173,8 @@ header {
   }
   
   .lead{
-    margin: 20px 20px 20px 58px;
+    margin: 20px 20px 20px 78px;
+    text-align: left;
   }
 
   .instructions{
