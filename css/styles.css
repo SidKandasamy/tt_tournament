@@ -163,4 +163,20 @@ header {
   .instructions{
     text-align: center;
   }
+
+  .title{
+    text-align: center;
+  }
+
+  header{
+    margin-left: 13px;
+  }
+  
+  .lead{
+    margin: 20px 20px 20px 58px;
+  }
+
+  .instructions{
+    margin: 5px 5px 5px 75px;
+  }
 }
