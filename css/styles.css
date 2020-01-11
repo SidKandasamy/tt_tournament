@@ -112,22 +112,55 @@ header {
 
 .footer {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 .wrapper {
   background-image: url(./../images/tennis-1141702_1280.jpg);
-  background-size: cover; }
+  background-size: cover; 
+}
 
 .first-round-input,
 .second-round-input,
 .final-round-input {
-  background-color: #53f348e3; }
+  background-color: #53f348e3; 
+}
 
 .first-round-input.available,
 .second-round-input.available,
 .final-round-input.available {
-  background-color: white; }
+  background-color: white; 
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
+
+  input{
+    margin-left:0px;
+    width:  100px; 
+  }
+
+  .wrapper{
+
+    background-image: url(./../images/tennis-1141702_1280.jpg);
+    background-size: cover; 
+    width: fit-content;
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .input{
+    margin-left: 30px;
+  }
+  
+
   .footer {
-    display: none; } }
+    display: none;
+  }
+
+  .instructions{
+    text-align: center;
+  }
+}
