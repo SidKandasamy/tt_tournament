@@ -178,7 +178,7 @@ $brightGreen: #53f348e3;
 
 //media- queries
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
 
   input{
     margin-left:0px;
@@ -190,6 +190,7 @@ $brightGreen: #53f348e3;
     background-image: url(./../images/tennis-1141702_1280.jpg);
     background-size: cover; 
     width: fit-content;
+    
 
   }
 
@@ -228,3 +229,104 @@ $brightGreen: #53f348e3;
   }
 }
 
+@media (max-width: 420px) {
+
+  input{
+    margin-left:0px;
+    width:  100px; 
+  }
+
+  .wrapper{
+
+    background-image: url(./../images/tennis-1141702_1280.jpg);
+    background-size: cover; 
+    width: fit-content;
+    
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .input{
+    margin-left: -65px;
+  }
+  
+
+  .footer {
+    display: none;
+  }
+
+  .instructions{
+    text-align: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  header{
+    margin-left: -27px;
+  }
+  
+  .lead{
+    margin: 20px 20px 20px 70px;
+    text-align: left;
+  }
+
+  .instructions{
+    margin: 5px 5px 5px 36px;
+  }
+}
+
+@media (max-width: 770px) {
+
+  input{
+    margin-left:0px;
+    width:  100px; 
+  }
+
+  .wrapper{
+
+    background-image: url(./../images/tennis-1141702_1280.jpg);
+    background-size: cover; 
+    height: 700px;
+    
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .input{
+    margin-left: -65px;
+  }
+  
+
+  .footer {
+    display: none;
+  }
+
+  .instructions{
+    text-align: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  header{
+    margin-left: -27px;
+  }
+  
+  .lead{
+    margin: 20px 20px 20px 70px;
+    text-align: left;
+  }
+
+  .instructions{
+    margin: 5px 5px 5px 36px;
+  }
+}
