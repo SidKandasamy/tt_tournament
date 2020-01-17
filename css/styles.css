@@ -248,7 +248,7 @@ header {
 
     background-image: url(./../images/tennis-1141702_1280.jpg);
     background-size: cover; 
-    
+    height: 700px;
     
 
   }
@@ -287,3 +287,4 @@ header {
     margin: 5px 5px 5px 36px;
   }
 }
+
