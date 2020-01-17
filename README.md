@@ -52,6 +52,9 @@ live website here: http://sid.developme.space/
 
 # Mobile friendly for Iphone 5/SE
 
+<img width="323" alt="Screenshot 2020-01-13 at 15 07 32" src="https://user-images.githubusercontent.com/51920030/72266690-c88bb180-3616-11ea-96a0-1b5d65c609f0.png">
+
+
 # How to play
 
 - Enter 8 players in the input next to the "add player" button.
