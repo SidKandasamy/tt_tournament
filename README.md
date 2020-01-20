@@ -50,9 +50,19 @@ Bonus Features
 
 live website here: http://sid.developme.space/
 
-# Mobile friendly for Iphone 5/SE
+# Responsive Design
+
+- Galaxy s5
+- Pixel 2
+- Pixel 2XL
+- Pixel 3a
+- Iphone 5/SE
+- Iphone X
+- Iphone 6/7/8
+- Ipad
 
 <img width="323" alt="Screenshot 2020-01-13 at 15 07 32" src="https://user-images.githubusercontent.com/51920030/72266690-c88bb180-3616-11ea-96a0-1b5d65c609f0.png">
+
 
 
 # How to play
